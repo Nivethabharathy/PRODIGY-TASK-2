@@ -40,6 +40,7 @@ def main():
       print("Invalid key. Please enter an integer.")
       continue
 
+   
     encrypt_decrypt(image_path, key, mode)
     print(f"Image {mode}crypted successfully!")
 
